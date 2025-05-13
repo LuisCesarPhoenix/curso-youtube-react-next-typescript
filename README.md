@@ -91,19 +91,23 @@ npm install --save-dev @types/react @types/react-dom @types/node
 ```
 4.  Inside that directory, you can run several commands:
 
+Starts the development server.
+```bash
 npm run dev
-    Starts the development server.
-
-  npm run build
-    Builds the app for production.
-
-  npm start
-    Runs the built app in production mode.
-
-We suggest that you begin by typing:
-
-  cd site-espaco-curumim
-  npm run dev
+```
+Builds the app for production.
+```bash
+npm run build
+```
+Runs the built app in production mode.
+```bash
+npm start
+```
+5.  We suggest that you begin by typing:
+```bash
+cd site-espaco-curumim
+npm run dev
+```
 
    ▲ Next.js 15.3.2
    - Local:        http://localhost:3000
