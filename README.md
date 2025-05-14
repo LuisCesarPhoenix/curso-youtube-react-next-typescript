@@ -74,8 +74,8 @@ npx create-next-app@latest nome-do-projeto
 ```
 Clona o exemplo e cria um projeto configurado com TypeScript, exatamente como está no exemplo do GitHub.  
 Use **--example** quando você quiser um projeto pré-configurado, com tudo pronto para um caso de uso específico.  
-:tada: init ***--example with-typescript***: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
-:tada: init ***with-typescript-app***: será o nome da pasta do projeto criado.  
+:tada: ***--example with-typescript***: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
+:tada: ***with-typescript-app***: será o nome da pasta do projeto criado.  
 ```bash
 npx create-next-app@latest with-typescript-app -e with-typescript  
 ```
