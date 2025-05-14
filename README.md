@@ -73,8 +73,9 @@ Cria um projeto do zero, com perguntas interativas (TypeScript, Tailwind, App Ro
 npx create-next-app@latest nome-do-projeto	
 ```
 Clona o exemplo e cria um projeto configurado com TypeScript, exatamente como está no exemplo do GitHub.  
---example with-typescript: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
-with-typescript-app: será o nome da pasta do projeto criado.  
+Use ***-- eaxmple*** quando você quiser um projeto pré-configurado, com tudo pronto para um caso de uso específico.  
+***--example with-typescript***: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
+***with-typescript-app***: será o nome da pasta do projeto criado.  
 ```bash
 npx create-next-app@latest with-typescript-app -e with-typescript  
 ```
