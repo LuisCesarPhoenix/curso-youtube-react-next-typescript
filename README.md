@@ -68,18 +68,18 @@ Um script `type-check` também foi adicionado ao `package.json`, que executa a C
 
 ### Diferenças entre os comandos
 
-Cria um projeto do zero, com perguntas interativas (TypeScript, Tailwind, App Router etc.):  
+1.  Cria um projeto do zero, com perguntas interativas (TypeScript, Tailwind, App Router etc.):  
 ```bash
 npx create-next-app@latest nome-do-projeto	
 ```
-Clona o exemplo e cria um projeto configurado com TypeScript, exatamente como está no exemplo do GitHub.  
+2.  Clona o exemplo e cria um projeto configurado com TypeScript, exatamente como está no exemplo do GitHub.  
 Use **--example** quando você quiser um projeto pré-configurado, com tudo pronto para um caso de uso específico.  
 :tada: ***--example with-typescript***: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
 :tada: ***with-typescript-app***: será o nome da pasta do projeto criado.  
 ```bash
 npx create-next-app@latest with-typescript-app -e with-typescript  
 ```
-Forma mais explícita de fazer isso, muito comum na documentação para deixar claro qual exemplo usar:  
+3.  Forma mais explícita de fazer isso, muito comum na documentação para deixar claro qual exemplo usar:  
 ```bash
 npx create-next-app@latest --example with-typescript with-typescript-app  
 ```
