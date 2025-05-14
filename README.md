@@ -57,13 +57,13 @@ yarn install --save-dev @types/react @types/react-dom @types/node
 pnpm install --save-dev @types/react @types/react-dom @types/node
 ```
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.  
 Quando executarmos `next dev` na próxima vez, o Next.js começará a procurar por quaisquer arquivos `.ts` ou `.tsx` em nosso projeto e o compilará. Ele até cria automaticamente um arquivo `tsconfig.json` para o nosso projeto com as configurações recomendadas.
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.  
 O Next.js possui declarações TypeScript integradas, portanto, teremos o preenchimento automático para os módulos do Next.js imediatamente.
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.  
 Um script `type-check` também foi adicionado ao `package.json`, que executa a CLI `tsc` do TypeScript no modo `noEmit` para executar a verificação de tipo separadamente. Você pode então incluir isso, por exemplo, em seus scripts de `teste`.
 
 
