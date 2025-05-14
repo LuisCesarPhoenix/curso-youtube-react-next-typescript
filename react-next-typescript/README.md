@@ -1,4 +1,4 @@
-C:\Users\cesar\Documents\Documentos B\react-next-typescript>npx create-next-app@latest react-next-typescript
+C:\Users\cesar\Documents\Documentos B>npx create-next-app@latest nome-do-projeto
 Need to install the following packages:
 create-next-app@15.3.2
 Ok to proceed? (y)
@@ -10,7 +10,7 @@ Ok to proceed? (y)
 √ Would you like to use App Router? (recommended) ... No / Yes
 √ Would you like to use Turbopack for `next dev`? ... No / Yes
 √ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
-Creating a new Next.js app in C:\Users\cesar\Documents\Documentos B\react-next-typescript\react-next-typescript.
+Creating a new Next.js app in C:\Users\cesar\Documents\Documentos B\nome-do-projeto.
 
 Using npm.
 
@@ -76,15 +76,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 ## Abrir o VS Code
 
-No powershell, dentro do diretório raiz do projeto digite:
-code .
+Utilize o comando abaixo dentro do diretório do projeto para abri-lo no VS Code:
+PS C:\Users\cesar\Documents\Documentos B\nome-do-projeto\dominando-nextjs> code .
 
 ## Rodar o servidor para iniciar a aplicação
 
 Clique com o botão direito na raiz do projeto, escolha a opção open in integrated terminal e digite o comando:
 npm run dev (rodar o comando run em modo de desenvolvimento)
-
-## Abrir no VS Code
-
-Utilize o comando abaixo dentro do diretório do projeto para abri-lo no VS Code:
-PS C:\Users\cesar\Documents\Documentos B\react-next-typescript\dominando-nextjs> code .
