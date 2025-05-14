@@ -1,6 +1,6 @@
 # TypeScript Next.js example
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+This is a really simple project that shows the usage of Next.js with TypeScript.  
 Este é um projeto muito simples que mostra o uso do Next.js com TypeScript.
 
 ## Deploy your own
@@ -27,7 +27,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 ## Notes
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.  
 Este exemplo mostra como integrar o sistema de tipos TypeScript ao Next.js. Como o TypeScript é suportado de fábrica pelo Next.js, tudo o que precisamos fazer é instalar o TypeScript.
 
 ```shell
@@ -42,7 +42,7 @@ yarn install --save-dev typescript
 pnpm install --save-dev typescript
 ```
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+To enable TypeScript's features, we install the type declarations for React and Node.  
 Para habilitar os recursos do TypeScript, instalamos as declarações de tipo para React e Node.
 
 ```shell
