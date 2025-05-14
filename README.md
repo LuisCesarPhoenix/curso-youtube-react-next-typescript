@@ -76,7 +76,7 @@ Clona o exemplo e cria um projeto configurado com TypeScript, exatamente como es
 --example with-typescript: usa o template "with-typescript" diretamente do repositório oficial do Next.js no GitHub  
 with-typescript-app: será o nome da pasta do projeto criado.  
 ```bash
-npx create-next-app@latest nome-do-projeto -e with-typescript  
+npx create-next-app@latest with-typescript-app -e with-typescript  
 ```
 Forma mais explícita de fazer isso, muito comum na documentação para deixar claro qual exemplo usar:  
 ```bash
