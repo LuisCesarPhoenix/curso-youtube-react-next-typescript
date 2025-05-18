@@ -66,7 +66,7 @@ O Next.js possui declarações TypeScript integradas, portanto, teremos o preenc
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.  
 Um script `type-check` também foi adicionado ao `package.json`, que executa a CLI `tsc` do TypeScript no modo `noEmit` para executar a verificação de tipo separadamente. Você pode então incluir isso, por exemplo, em seus scripts de `teste`.  
 
-### Diferenças entre os comandos
+## Diferenças entre os comandos
 
 1.  Cria um projeto do zero, com perguntas interativas (TypeScript, Tailwind, App Router etc.):  
 ```bash
